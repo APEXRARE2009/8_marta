@@ -18,7 +18,7 @@ h1 {
 }
 
 img {
-	min-height: 100%;
+	max-width: 100%;
 }
 
 .wrapper {
@@ -26,6 +26,7 @@ img {
 	background: linear-gradient(0deg, #ac00cc, #f200ff);
 	display: flex;
 	align-items: center;
+	font-family: 'Pacifico', arial;
 }
 
 .container {
@@ -40,26 +41,28 @@ img {
 }
 
 .content {
+	display: flex;
+	align-items: center;
 }
 
 .number {
-	width: 10px;
-	height: 10px;
+	width: 300px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
 .number__top {
-	width: 80%;
-	transform: translateY(-40px);
+	width: 90%;
+	transform: translateY(58px);
 }
 
 .number__btm {
+	width: 110%;
 }
 
 .content__text {
-	padding: 0 0 0 50px;
+	padding: 0 0 0 60px;
 }
 
 .content__title {
