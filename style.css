@@ -55,10 +55,30 @@ img {
 .number__top {
 	width: 90%;
 	transform: translateY(58px);
+	animation: 4s top infinite;
+}
+
+@keyframes top {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
 }
 
 .number__btm {
 	width: 110%;
+	animation: 5s btm infinite;
+}
+
+@keyframes btm {
+	0%{
+		transform: rotate(0deg);
+	}
+	100%{
+		transform: rotate(-360deg);
+	}
 }
 
 .content__text {
